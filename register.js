@@ -10,7 +10,7 @@ const axios = require('axios');
 const TARGET_API_URL = 'https://www.moelink.cc/api/v1/passport/auth/register';
 
 // 2. 每次运行时，发送多少个注册请求
-const NUMBER_OF_REQUESTS = 500; // 这里设置为10次
+const NUMBER_OF_REQUESTS = 10000; // 这里设置为10次
 
 // =================================================================
 // ============ 核心逻辑区域：一般无需修改以下代码 ============
