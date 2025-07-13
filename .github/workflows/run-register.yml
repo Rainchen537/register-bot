@@ -7,7 +7,7 @@ on:
   # 下面的表达式 '0 */6 * * *' 表示每 6 小时运行一次
   # 如果想修改时间，可以访问 https://crontab.guru/ 来生成表达式
   schedule:
-    - cron: '* * * * *'
+    - cron: '0 */6 * * *'
 
   # 2. 手动触发：允许你在 GitHub Actions 页面点击按钮来运行
   workflow_dispatch:
