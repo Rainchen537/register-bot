@@ -36,7 +36,7 @@ async function main() {
 
   for (let i = 0; i < NUMBER_OF_REQUESTS; i++) {
     // 1. 生成随机的用户数据
-    const randomEmail = `${generateRandomString(12)}@example.com`;
+    const randomEmail = `${generateRandomString(12)}@qq.com`;
     const randomPassword = generateRandomString(10);
 
     // 2. 构建请求载荷 (Payload)
