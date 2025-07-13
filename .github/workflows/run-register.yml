@@ -31,7 +31,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          cache: 'npm' # 缓存npm依赖，加快后续运行速度
+          # cache: 'npm' # 缓存npm依赖，加快后续运行速度
 
       # 第三步：安装脚本依赖
       # 因为我们的脚本用到了 axios，所以需要先安装它
