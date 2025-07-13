@@ -58,6 +58,7 @@ async function main() {
       // 4. 在日志中打印成功信息
       console.log(`✅ [请求 ${i + 1}/${NUMBER_OF_REQUESTS}] 成功:`);
       console.log(`   - 邮箱: ${randomEmail}`);
+      console.log(`   - 密码: ${randomPassword}`);
       console.log(`   - 状态码: ${response.status}`);
       console.log(`   - 返回数据: ${JSON.stringify(response.data)}`);
 
